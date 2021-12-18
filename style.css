@@ -1,0 +1,99 @@
+
+@media screen and (min-width:360px) {
+    
+    .central {
+        text-align: center;
+        margin-top: 75px;
+}
+    .h1{
+    font-family: 'Abril Fatface', cursive;
+    }
+
+
+    #livro-centro {
+        width: 101,51px;
+        height: 115px;
+    }
+    .estrelas {
+        width: 30,9px;
+        height: 30px;
+    }
+    .botoes {
+        margin-top: 70px;
+    }
+    #btn_pular {
+        font-size: 16px;
+        color: rgb(27, 218, 218);
+        background-color: white;
+        border: none;       
+    }
+    #btn_confirmar {
+        width: 143px;
+        height:40px;
+        color:white;
+        background-color: rgb(48,198,208);
+        border-color: rgb(48,198,208);
+        box-shadow: rgb(48, 198,208);
+        border-radius: 50px;
+    }
+    .h1 {
+        width: 223px;
+        height: 68px;
+        font-size: 34px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .central {
+        text-align: center;
+        margin-top: 200px;
+    }
+    .h1{
+        font-family: 'Abril Fatface', cursive;
+    }
+    #livro-centro {
+        width: 114,16px;
+        height: 130px;
+    }
+    .estrelas {
+        width: 30,9px;
+        height: 30px;
+    }
+    .botoes {
+        margin-top: 70px;
+    }
+    #btn_pular {
+        font-size: 16px;
+        width: 52px;
+        height: 24px;
+    }
+    #btn_confirmar {
+        width: 143px;
+        height:40px;
+        border-radius: 50px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(48,198,208);
+        border-color: rgb(48,198,208);
+        box-shadow: rgb(48, 198,208);
+    }
+    
+    #btn_confirmar:disabled {
+        background-color: gray;
+        border-color:gray;
+
+    }
+    
+    .h1 {
+        width: 292px;
+        height: 84px;
+        font-size: 42px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+    }
+}
+
+
+
